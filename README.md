@@ -13,10 +13,10 @@ The links and tutorials listed below were not written, and are not owned, by the
     2. Perl
     3. R
 2. Core Concepts in WGS
-whole genome sequencing
-library preparation
-sequencing technology
-coverage
+	1. Whole Genome Sequencing (WGS)
+	2. Library Preparation
+	3. Sequencing Technology
+	4. Coverage
 3. Sequencing Reads
     1. Short Reads 
     2. Long Reads
@@ -28,11 +28,13 @@ coverage
 5. Phylogenomics
 6. Pangenomics
 7. K-mer and related
-7. Databases
-    8. NCBI
-    9. ENA
-    8. BIGSdb
-    9. Enterobase
+8. Databases
+    1. NCBI
+    2. ENA
+    3. BIGSdb
+    4. Enterobase
+9. Servers
+	1. EDGE
 
 ## __Command-line tutorials__
 Familiarity with the Linux command-line is usually the first step for budding informaticians. Many tools are only designed or distributed for Linux-based systems. In addition to this many powerful operations, such as iterating through batches of files, can dramatically reduce and simplify workflows.
@@ -48,7 +50,7 @@ Picking up a programming language allows for an informatician to be more flexibl
 ### Python
 - [Official python tutorial page](https://wiki.python.org/moin/BeginnersGuide/Programmers) - multiple tutorials for all levels.
 ### R
-- [R for begginers] (https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) – basic introduction to R and statistical analysis.
+- [R for begginers](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) – basic introduction to R and statistical analysis.
 - [ggplot2 tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html) – an incredibly flexible and powerful family of packages for creating figures using the grammar of graphics.
 
 ## __Core Concepts in WGS__
@@ -69,7 +71,7 @@ Sequence coverage or depth (depth of coverage) is the number of times a base in 
 ### Long Reads
 - [Intro to long reads and long read technologies](https://angus.readthedocs.io/en/2016/_static/Torsten_Seemann_LRS.pdf) (Slides, Torsten Seeman)
 ### Read QC
-- [Fastqc](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf) – an itroduction to fastqc a tool for
+- [Fastqc](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf) – an introduction to fastqc, a tool for assessing multiple read quality metrics. 
 - [Trimmomatic manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) -  a tools for trimming reads and removing adapter sequences.
 ## __Mapping and Variant Calling__
 - [snippy](https://github.com/tseemann/snippy/blob/master/README.md) - a tool for mapping (BWA) and variant calling. 
@@ -80,7 +82,7 @@ Sequence coverage or depth (depth of coverage) is the number of times a base in 
 ## __Annotation__
 - [Assembly annotation tutorial using prokka](https://angus.readthedocs.io/en/stable/prokka_genome_annotation.html) 
 ## __Phylogenomics__
-- (Pangenome based tree construction)[https://github.com/BacterialCommunitiesAndPopulation/Thursday19thMay/blob/master/Thursday_Morning.md]
+- [Pangenome based tree construction](https://github.com/BacterialCommunitiesAndPopulation/Thursday19thMay/blob/master/Thursday_Morning.md)
 ## __Pangenomics__
 - [Building a pangenome using roary](https://github.com/BacterialCommunitiesAndPopulation/Thursday19thMay/blob/master/Thursday_Morning.md)
 ## __K-mer and related__
